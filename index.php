@@ -7,7 +7,7 @@
 	require('default.php'); //all default variables and functions
 	require('scripts.php'); //all default scripts and css
 	include('auth.php'); //LDAP authentication
-?>	
+?>
 </head>
 <body>
 <table>
@@ -18,11 +18,11 @@
 <i>Be right back!</i>
 </center>-->
  <?php
-	
+
 	$userDn = $_SESSION["userDn"];
 	$userFirstname = $_SESSION["userFirstname"];
 	$userLastname = $_SESSION["userLastname"];
-	
+
 	//check userDn exists in user
 	if(checkConnect($connection,'user','alias',$userDn) != 1){
 		mysqli_query($connection,"INSERT INTO user (alias, firstName, lastName) VALUES  ('$userDn','$userFirstname','$userLastname')");
@@ -63,8 +63,8 @@
 	displayTable($userDn,$currFcst,"*");
 	echo "</table><br /><br />";
 
-?> 
+?>
 
  </body>
- <div class="footer">Site maintained by <a href="mailto:amali@ea.com">Achhunna Mali</a>. All Rights Reserved.</div>
-</html> 
+ <div class="footer">Site maintained by <a href="mailto:">Achhunna M.</a>. All Rights Reserved.</div>
+</html>

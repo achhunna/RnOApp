@@ -1,0 +1,109 @@
+body{
+	font-family: Helvetica;
+	font-size: 0.75em;
+}
+.left{
+	text-align: left;
+}
+.right{
+	text-align: right;
+	font-size: 1em;
+}
+.center{
+	text-align: center;
+}
+.bold{
+	font-weight: bold;
+}
+.red{
+	color: red;
+}
+.odd{
+	background-color: white;
+}
+.even{
+	background-color: #f8f8f8;
+} 
+.blue{
+	color: blue;
+}
+table{
+	border-collapse: collapse;
+	border: 0px;
+	font-size: 1em;
+}
+th{
+	background-color: #000000;
+	font-weight: bold;
+	font-size: 1em;
+	padding: 2px;
+	//border: 1px solid;
+	color: #ffffff;
+}
+tr, td{
+	border: 0px;
+	padding: 2px;
+}
+td.button{
+	white-space: nowrap;
+}
+input{
+	font-size: 1em;
+}
+input[readonly]{
+	border: 0px;
+	font-size: 1em;
+	background: transparent;
+}
+
+input[type=submit]{
+	height: 25px;
+	width: 25px;
+	text-align: center;
+	padding: 0px;
+}
+input[type=submit].big{
+	width: 75px;
+}
+input[type=button].big{
+	width: 75px;
+}
+input[type=submit]:disabled{
+	border: none;
+}
+input[type=button]{
+	height: 25px;
+	width: 25px;
+	text-align: center;
+}
+input[type=button]:disabled{
+	border: none;
+	height: 25px;
+}
+select{
+	font-size: 1em;
+}
+select:disabled{
+	background: transparent;
+}
+.ui-menu .ui-menu-item a{
+	font-family: Helvetica;
+	font-size: 0.9em;
+}
+.footer{
+	font-family: Helvetica; 
+	padding: 5px;
+	font-size: 0.9em;
+	right: 0px;
+	color: #707070;
+	bottom: 0;
+	height: 10px;
+	width: 95%;
+	display: block;
+	text-align: right;
+}
+tr.ver{
+	font-size: 0.8em;
+	color: #707070;
+	vertical-align: top;
+}

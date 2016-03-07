@@ -1,0 +1,17 @@
+Definition of includes
+
+ajax: for all default display, update entries, delete entries
+
+auth.php: LDAP authentication using $_SERVER apache variable, declare variables in $_SESSION["xxx"]
+
+autocomplete.php: Used by jQuery autocomplete module to populate fields
+
+default.php: initiate all variables and all php functions, session_start
+
+index.php: call SESSION variables, option for forecast, textbox for project
+
+mysql.php: MySQL login
+
+scripts.php: all scripts and css
+
+session.php: check session variable for login
